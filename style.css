@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500;600&family=Montserrat:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    background-color: darkgrey;
+    font-family: Fredoka;
+    color: white;
+}
+
+header {
+    background-color: black;
+    height: 100vh;
+}
+
+
+
+video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    color: white;
+}
+
+a {
+    color: #ffffff;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+}
+
+
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+  }
+  
+  h1 img {
+    display: block;
+    width: 200px; 
+    height: auto
+  }
+  
+
+#photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    height: 100vh;
+  }
+  
+  #photo-grid #photo1,
+  #photo-grid #photo2,
+  #photo-grid #photo3,
+  #photo-grid #photo4 {
+    position: relative;
+    height: 50vh;
+  }
+
+
+  #photo-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 50px;
+  }
+  
+
+  #photo-grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+  }
+  
+  #photo-grid1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+#buy-the-bag {
+  background-color: black;
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+}
+
+#buy-the-bag-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#buy-the-bag-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#buy-the-bag-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#buy-the-bag-button {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  transition: background-color 0.5s ease;
+}
+
+#buy-the-bag-button:hover {
+  background-color: rgb(56, 56, 56);
+} 

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500;600&family=Montserrat:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    background-color: darkgrey;
+    font-family: Fredoka;
+    color: white;
+}
+
+header {
+    background-color: black;
+    height: 100vh;
+}
+
+
+
+video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    color: white;
+}
+
+a {
+    color: #ffffff;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+}
+
+
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+  }
+  
+  h1 img {
+    display: block;
+    width: 200px; 
+    height: auto
+  }
+
+
+  #text-container {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 300;
+    width: 1500px;
+  }
+  
+  .text-box {
+    margin-bottom: 40px;
+  }
+  
+  #headline1,
+  #headline2,
+  #headline3,
+  #headline4 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .text-box p {
+    font-size: 15px;
+    color: white;
+  }
+  
